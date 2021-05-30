@@ -1,9 +1,10 @@
 module.exports = class Randomize {
     randomInt(min, max) {
-        if(!min) min = 0;
+        if(!min) min =0;
         if(!max) throw new Error("No maximum number provided");
 
         return (Math.floor(Math.random() * (max - min + 1)) + min)
+        // epic
     }
     randomArray(arr) {
         if(!Array.isArray(arr) || !arr instanceof Array) {

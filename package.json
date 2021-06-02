@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/technorav3nn/randomize/issues"
   },
-  "homepage": "https://github.com/technorav3nn/randomize#readme"
+  "homepage": "https://github.com/technorav3nn/randomize#readme",
+  "dependencies": {
+    "n": "^7.2.2"
+  }
 }

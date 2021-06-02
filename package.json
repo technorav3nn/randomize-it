@@ -1,6 +1,6 @@
 {
   "name": "randomize-it",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "random galore!",
   "main": "index.js",
   "scripts": {

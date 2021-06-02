@@ -84,6 +84,7 @@ module.exports = class RandomizeIt {
     if(!typeof str === 'string' || !str instanceof String) {
       throw new Error("Expected a valid string!");
     }
+    
     let clone = str.split("")
     for(let i = 0; i < str.length; ++i) {
       const randomIndex = Math.floor(Math.random() * clone.length);

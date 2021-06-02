@@ -1,17 +1,12 @@
 
-<<<<<<< HEAD
 # Randomize-it !
 
 <em>Randomize-it is a random-filled `npm` package!</em>
-=======
-# Randomize
-
-<em>Randomize is a random-filled `npm` package!</em>
->>>>>>> 95a12cc821ebb534dc7c1dfcb57cadf65eb5e075
 
 # Documentation
 
 >  *Examples are at the bottom of this page.*
+
 ###  Methods
 |Name  | Description| Arguments | Return type|
 |--|--|--|--|
@@ -29,26 +24,33 @@
 
 JavaScript:
 ```js
-const Randomize = require("randomize")
-const random = new Randomize()
+const RandomizeIt = require("randomize-it")
+const random = new RandomizeIt()
 // OR import methods from the package with destructoring:
 // const { randomUpper() } = require("randomize")
+
 const  testArr = ["Hello 1!", "Sup 2", "bruh", "test", "hello!!!#!@#"]
+
 console.log(random.randomUpper("Hello", 1)) //=> returns a string with random letters uppercased. change the second argument (1) to a higher or lower number to recieve multiple characters uppercased.
 console.log(random.randomLower("Hello", 1)) //=> same thing but lowercase lol
 console.log(random.randomMultipleArray(testArr, 2)) //=> returns an array of random items inside of "testArr" array.
 console.log(random.randomArray(testArr)) //=> Returns a random item from the array, such as "Hello 1!" could be an example. Remember: its all random!
+
 ```
 Typescript:
 ```ts
-import Randomize from "randomize"
+import RandomizeIt from "randomize-it"
 // or:
 // import * as Randomize from "randomize"
 // const random = new Randomize();
-const random = new Randomize()
+
+const random = new RandomizeIt()
+
 // OR import methods from the package with destructoring:
 // import { randomUpper() } from "randomize";
+
 const  testArr : Array<any> = ["Hello 1!", "test"];
+
 console.log(random.randomUpper("Hello", 1)) //=> returns a string with random letters uppercased. change the second argument (1) to a higher or lower number to recieve multiple characters uppercased.
 console.log(random.randomLower("Hello", 1)) //=> same thing but lowercase lol
 console.log(random.randomArray(testArr)) //=> Returns a random item from the array, such as "Hello 1!" could be an example. Remember: its all random!

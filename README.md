@@ -1,13 +1,7 @@
 
-<<<<<<< HEAD
 # Randomize-it !
 
 <em>Randomize-it is a random-filled `npm` package!</em>
-=======
-# Randomize
-
-<em>Randomize is a random-filled `npm` package!</em>
->>>>>>> cf3eef0d0a432570961b88b04f2e6e341333a716
 
 # Documentation
 

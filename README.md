@@ -1,18 +1,11 @@
 
-<<<<<<< HEAD
-# Randomize-it !
-
-<em>Randomize-it is a random-filled `npm` package!</em>
-=======
 # Randomize
 
 <em>Randomize is a random-filled `npm` package!</em>
->>>>>>> cf3eef0d0a432570961b88b04f2e6e341333a716
 
 # Documentation
 
 >  *Examples are at the bottom of this page.*
-
 ###  Methods
 |Name  | Description| Arguments | Return type|
 |--|--|--|--|
@@ -30,46 +23,26 @@
 
 JavaScript:
 ```js
-<<<<<<< HEAD
-const RandomizeIt = require("randomize-it")
-const random = new RandomizeIt()
-=======
 const Randomize = require("randomize")
 const random = new Randomize()
->>>>>>> cf3eef0d0a432570961b88b04f2e6e341333a716
 // OR import methods from the package with destructoring:
 // const { randomUpper() } = require("randomize")
-
 const  testArr = ["Hello 1!", "Sup 2", "bruh", "test", "hello!!!#!@#"]
-
 console.log(random.randomUpper("Hello", 1)) //=> returns a string with random letters uppercased. change the second argument (1) to a higher or lower number to recieve multiple characters uppercased.
 console.log(random.randomLower("Hello", 1)) //=> same thing but lowercase lol
 console.log(random.randomMultipleArray(testArr, 2)) //=> returns an array of random items inside of "testArr" array.
 console.log(random.randomArray(testArr)) //=> Returns a random item from the array, such as "Hello 1!" could be an example. Remember: its all random!
-
 ```
 Typescript:
 ```ts
-<<<<<<< HEAD
-import RandomizeIt from "randomize-it"
-=======
 import Randomize from "randomize"
->>>>>>> cf3eef0d0a432570961b88b04f2e6e341333a716
 // or:
 // import * as Randomize from "randomize"
 // const random = new Randomize();
-
-<<<<<<< HEAD
-const random = new RandomizeIt()
-=======
 const random = new Randomize()
->>>>>>> cf3eef0d0a432570961b88b04f2e6e341333a716
-
 // OR import methods from the package with destructoring:
 // import { randomUpper() } from "randomize";
-
 const  testArr : Array<any> = ["Hello 1!", "test"];
-
 console.log(random.randomUpper("Hello", 1)) //=> returns a string with random letters uppercased. change the second argument (1) to a higher or lower number to recieve multiple characters uppercased.
 console.log(random.randomLower("Hello", 1)) //=> same thing but lowercase lol
 console.log(random.randomArray(testArr)) //=> Returns a random item from the array, such as "Hello 1!" could be an example. Remember: its all random!
@@ -77,8 +50,4 @@ console.log(random.randomMultipleArray(testArr, 2)) //=> returns an array of ran
 ```
 
 # Notes
-<<<<<<< HEAD
 I might update this more, but I plan to update it soon. Please commit and add a PR if you want to add more things! It would be epic to have like 20 random methods haha 
-=======
-I might update this more, but I plan to update it soon. Please commit and add a PR if you want to add more things! It would be epic to have like 20 random methods haha 
->>>>>>> cf3eef0d0a432570961b88b04f2e6e341333a716

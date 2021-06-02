@@ -1,7 +1,13 @@
 
+<<<<<<< HEAD
 # Randomize-it !
 
 <em>Randomize-it is a random-filled `npm` package!</em>
+=======
+# Randomize
+
+<em>Randomize is a random-filled `npm` package!</em>
+>>>>>>> cf3eef0d0a432570961b88b04f2e6e341333a716
 
 # Documentation
 
@@ -24,8 +30,13 @@
 
 JavaScript:
 ```js
+<<<<<<< HEAD
 const RandomizeIt = require("randomize-it")
 const random = new RandomizeIt()
+=======
+const Randomize = require("randomize")
+const random = new Randomize()
+>>>>>>> cf3eef0d0a432570961b88b04f2e6e341333a716
 // OR import methods from the package with destructoring:
 // const { randomUpper() } = require("randomize")
 
@@ -39,12 +50,20 @@ console.log(random.randomArray(testArr)) //=> Returns a random item from the arr
 ```
 Typescript:
 ```ts
+<<<<<<< HEAD
 import RandomizeIt from "randomize-it"
+=======
+import Randomize from "randomize"
+>>>>>>> cf3eef0d0a432570961b88b04f2e6e341333a716
 // or:
 // import * as Randomize from "randomize"
 // const random = new Randomize();
 
+<<<<<<< HEAD
 const random = new RandomizeIt()
+=======
+const random = new Randomize()
+>>>>>>> cf3eef0d0a432570961b88b04f2e6e341333a716
 
 // OR import methods from the package with destructoring:
 // import { randomUpper() } from "randomize";
@@ -58,4 +77,8 @@ console.log(random.randomMultipleArray(testArr, 2)) //=> returns an array of ran
 ```
 
 # Notes
+<<<<<<< HEAD
 I might update this more, but I plan to update it soon. Please commit and add a PR if you want to add more things! It would be epic to have like 20 random methods haha 
+=======
+I might update this more, but I plan to update it soon. Please commit and add a PR if you want to add more things! It would be epic to have like 20 random methods haha 
+>>>>>>> cf3eef0d0a432570961b88b04f2e6e341333a716
